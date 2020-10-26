@@ -70,4 +70,5 @@ inputs:
     default: false
 runs:
   using: node12
-  main: test.js
+  main: dist/index.js
+  post: dist/index.js
